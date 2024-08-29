@@ -37,7 +37,7 @@ const ImageCarousel = ({ images, interval = 3000 }) => {
           opacity: 0;
           transition: opacity 1s ease-in-out;
         }
-        .carousel-ismage.visible {
+        .carousel-image.visible {
           opacity: 1;
           padding: 10px;
         }
