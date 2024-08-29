@@ -24,16 +24,15 @@ const ImageCarousel = ({ images, interval = 3000 }) => {
       <style jsx>{`
         .carousel {
           position: relative;
-          width: 500px; /* Largura do quadrado */
-          height: 500px; /* Altura do quadrado */
+          width: 250px; /* Largura do quadrado */
+          height: 250px; /* Altura do quadrado */
           overflow: hidden;
-          margin: auto; /* Centralizar na página */
         }
         .carousel-image {
           position: absolute;
           width: 100%;
           height: 100%;
-          object-fit: cover; /* Garante que a imagem cubra toda a área, mantendo a proporção */
+          object-fit: cover; 
           opacity: 0;
           transition: opacity 1s ease-in-out;
         }
